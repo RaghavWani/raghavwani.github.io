@@ -1,2 +1,2 @@
 # raghavwani.github.io
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
