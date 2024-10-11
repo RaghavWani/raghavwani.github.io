@@ -1,0 +1,145 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+ 
+ /* Body and Mainpage */
+ body{
+    font-family:'Open Sans',serif;
+    padding-top:54px;
+    color:#f7f7f7; /* or #f7f7f7 */
+    background-color: #1a1a1a;} /*or #1a1a1a*/
+@media (min-width:992px){
+    body{
+        padding-top:0;
+        padding-left:17rem}}
+
+/* Texts and Icons */
+h1,h2,h3,h4,h5,h6{
+    font-family:'Saira Extra Condensed',serif;
+    font-weight:700;
+    text-transform:uppercase;
+    color:#ff9900} /* or #ff69b4*/
+h1{
+    font-size:6rem;
+    line-height:5.5rem}
+h2{
+    font-size:3.5rem}
+.subheading{
+    text-transform:uppercase;
+    font-weight:500;
+    font-family:'Saira Extra Condensed',serif;
+    font-size:1.35rem}
+.list-social-icons a{
+    color:#ffffff33}    
+.list-social-icons a:hover{
+    color:#bd5d38}
+.list-social-icons a .fa-lg{
+    font-size:1.75rem}
+.list-icons{
+    font-size:3rem}
+.list-icons .list-inline-item i:hover{
+    color:#bd5d38}
+
+/* Navigation Bar */
+#sideNav .navbar-nav .nav-item .nav-link{
+    font-weight:600;
+    text-transform:uppercase;
+    color:#2f2e2e}
+@media (min-width:992px){
+    #sideNav{
+        text-align:center;
+        position:fixed;
+        top:0;
+        left:0;
+        display:flex;
+        flex-direction:column;
+        width:17rem;
+        height:100vh}
+    #sideNav .navbar-brand{
+        display:flex;
+        margin:auto auto 0;
+        padding:.5rem}
+    #sideNav .navbar-brand .img-profile{
+        max-width:10rem;
+        max-height:10rem;
+        border:.5rem solid #06060600}
+    #sideNav .navbar-collapse{
+        display:flex;
+        align-items:flex-start;
+        flex-grow:0;
+        width:100%;
+        margin-bottom:auto}
+    #sideNav .navbar-collapse .navbar-nav{
+        flex-direction:column;
+        width:100%}
+    #sideNav .navbar-collapse .navbar-nav .nav-item{
+        display:block}
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{
+        display:block}}
+
+/* Sections */
+section.resume-section{
+    border-bottom:1px solid #ffffff;
+    padding-top:5rem!important;
+    padding-bottom:5rem!important;
+    background-color: #1a1a1a;}
+section.resume-section .resume-item .resume-date{
+    min-width:none}
+@media (min-width:768px){
+    section.resume-section{
+        min-height:100vh}
+    section.resume-section .resume-item .resume-date{
+        min-width:18rem}}
+@media (min-width:992px){
+    section.resume-section{
+        padding-top:3rem!important;
+        padding-bottom:3rem!important}}
+.bg-primary{
+    background-color:#ff9900!important}
+.text-primary{
+    color:#ff990091!important}
+a{
+    color:#66d9ef} /* or #8bc34a*/
+a:active,a:focus,a:hover{
+    color:#ff9900} /* or #ff69b4*/
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #ff9900;
+    color: #1a1a1a;
+    cursor: pointer;
+    padding: 0.5px;
+    border-radius: 100px;
+    font-size: 30px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.devicon--fortran {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath fill='white' d='M18.969 0C13.25 0 0 11 0 18.66v90.453c0 5.692 11.21 18.903 18.781 18.903l90.551-.032c6.738-.004 18.688-9.683 18.688-18.601V18.84c0-6.078-10.61-18.832-18.43-18.832zm-1.395 13.66h93.367v41.711l-10.992-.164c-.101-.098-.402-3.047-.605-5.758C98.19 36.7 95.328 29.363 89.809 26.5c-2.914-1.504-7.457-1.95-22.02-1.953l-13.57.004v31.273h2.41c4.066-.05 9.234-1.004 10.941-2.058c2.211-1.356 4.067-5.27 4.72-9.989c.491-3.445.87-6.023.87-6.023h10.676v49.691H72.793v-1.957c0-3.21-1.508-10.691-2.563-12.949c-1.656-3.465-4.464-4.668-12.449-5.422l-3.664-.351l.203 16.113c.149 15.308.25 16.164 1.203 17.469c1.207 1.605 2.512 1.906 10.493 2.507l5.355.258l-.035 10.938H17.574v-10.942l4.922-.304c9.988-.653 9.887-.602 10.39-8.43c.45-7.43-.116-65.598-.452-66.762c-.551-1.922-2.618-3.027-8.786-3.023l-6.074-.04z'/%3E%3C/svg%3E");
+}
+
+.devicon--powershell {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3ClinearGradient id='deviconPowershell0' x1='96.306' x2='25.454' y1='35.144' y2='98.431' gradientTransform='matrix(1 0 0 -1 0 128)' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='white'/%3E%3Cstop offset='1' stop-color='white'/%3E%3C/linearGradient%3E%3Cpath fill='url(%23deviconPowershell0)' fill-rule='evenodd' d='M7.2 110.5c-1.7 0-3.1-.7-4.1-1.9s-1.3-2.9-.9-4.6l18.6-80.5c.8-3.4 4-6 7.4-6h92.6c1.7 0 3.1.7 4.1 1.9s1.3 2.9.9 4.6l-18.6 80.5c-.8 3.4-4 6-7.4 6z' clip-rule='evenodd' opacity='0'/%3E%3ClinearGradient id='deviconPowershell1' x1='25.336' x2='94.569' y1='98.33' y2='36.847' gradientTransform='matrix(1 0 0 -1 0 128)' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='white'/%3E%3Cstop offset='.169' stop-color='white'/%3E%3Cstop offset='.445' stop-color='white'/%3E%3Cstop offset='.79' stop-color='white'/%3E%3Cstop offset='1'/%3E%3C/linearGradient%3E%3Cpath fill='url(%23deviconPowershell1)' fill-rule='evenodd' d='M120.3 18.5H28.5c-2.9 0-5.7 2.3-6.4 5.2L3.7 104.3c-.7 2.9 1.1 5.2 4 5.2h91.8c2.9 0 5.7-2.3 6.4-5.2l18.4-80.5c.7-2.9-1.1-5.3-4-5.3' clip-rule='evenodd'/%3E%3Cpath fill='black' fill-rule='evenodd' d='M64.2 88.3h22.3c2.6 0 4.7 2.2 4.7 4.9s-2.1 4.9-4.7 4.9H64.2c-2.6 0-4.7-2.2-4.7-4.9s2.1-4.9 4.7-4.9m14.5-21.8c-.4.8-1.2 1.6-2.6 2.6L34.6 98.9c-2.3 1.6-5.5 1-7.3-1.4c-1.7-2.4-1.3-5.7.9-7.3l37.4-27.1v-.6l-23.5-25c-1.9-2-1.7-5.3.4-7.4c2.2-2 5.5-2 7.4 0l28.2 30c1.7 1.9 1.8 4.5.6 6.4' clip-rule='evenodd'/%3E%3Cpath fill='black' fill-rule='evenodd' d='M77.6 65.5c-.4.8-1.2 1.6-2.6 2.6L33.6 97.9c-2.3 1.6-5.5 1-7.3-1.4c-1.7-2.4-1.3-5.7.9-7.3l37.4-27.1v-.6l-23.5-25c-1.9-2-1.7-5.3.4-7.4c2.2-2 5.5-2 7.4 0l28.2 30c1.7 1.8 1.8 4.4.5 6.4M63.5 87.8h22.3c2.6 0 4.7 2.1 4.7 4.6c0 2.6-2.1 4.6-4.7 4.6H63.5c-2.6 0-4.7-2.1-4.7-4.6c0-2.6 2.1-4.6 4.7-4.6' clip-rule='evenodd'/%3E%3C/svg%3E");
+}
+
