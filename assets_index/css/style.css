@@ -337,3 +337,27 @@ h6 {
   font-size: 16px;
   position: relative;
 }
+
+.background-container {
+  position: relative;
+  height: 1px; /* Adjust the height as needed */
+  background-image: url('assets_index/img/my_pic_milky-way.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;            /* Move the caption down by 50% of the container height */
+  left: 50%;           /* Move the caption right by 50% of the container width */
+  transform: translate(-50%, -100%); /* Center the caption exactly by shifting it back by half its own width and height */
+  background-color: rgba(0, 0, 0, 0.6); /* Dark translucent background for readability */
+  color: white;
+  padding: 0px;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 5px;
+  text-align: center;
+}
+

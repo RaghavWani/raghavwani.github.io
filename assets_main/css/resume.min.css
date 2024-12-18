@@ -34,13 +34,13 @@ h2{
 .list-social-icons a{
     color:#ffffff33}    
 .list-social-icons a:hover{
-    color:#bd5d38}
+    color:#ea8d00}
 .list-social-icons a .fa-lg{
     font-size:1.75rem}
 .list-icons{
     font-size:3rem}
 .list-icons .list-inline-item i:hover{
-    color:#bd5d38}
+    color:#ea8d00}
 
 /* Navigation Bar */
 #sideNav .navbar-nav .nav-item .nav-link{
@@ -64,7 +64,7 @@ h2{
     #sideNav .navbar-brand .img-profile{
         max-width:10rem;
         max-height:10rem;
-        border:.5rem solid #06060600}
+        border: 10px solid #ea8d00}
     #sideNav .navbar-collapse{
         display:flex;
         align-items:flex-start;
